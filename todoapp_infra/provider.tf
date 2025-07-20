@@ -4,7 +4,7 @@
 terraform {
   required_providers {
     azurerm = {
-      source = "hashicorp/azurerm"
+      source  = "hashicorp/azurerm"
       version = "4.32.0"
     }
   }
@@ -12,5 +12,5 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "1075ec7a-b17a-4f37-bf3f-9d68c4506dc1"
+  subscription_id = "193a80b5-b916-4c17-b06d-cfc310d07a2c"
 }
