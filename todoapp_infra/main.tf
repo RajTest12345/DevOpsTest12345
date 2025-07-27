@@ -12,6 +12,15 @@
 # New Comment added by Raj
 # New Comment added by Raj11
 
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "rajResourceGroup"
+    storage_account_name = "rajstorageacc123"
+    container_name       = "statefile123"
+    key                  = "terraform.tfstate"
+  }
+}
+
 module "resource_group" {
   source                  = "../modules/azurerm_resource_group"
   resource_group_name     = "rg-todoapp"
