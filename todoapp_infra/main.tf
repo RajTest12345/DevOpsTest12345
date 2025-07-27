@@ -9,6 +9,7 @@
 # Fir, ek VM banayi frontend ke liye, jisme username aur password Key Vault se liya.
 # Aage chal kar, backend VM aur SQL server bhi banane ka plan hai.
 # Is tarah, DevOps engineer ne infrastructure ko code ki madad se automate kar diya.
+# New Comment added by Raj
 
 module "resource_group" {
   source                  = "../modules/azurerm_resource_group"
